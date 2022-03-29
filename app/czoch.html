@@ -4,21 +4,23 @@
     <meta charset="UTF-8">
     <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="./../static/main.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
     <title>Czoch</title>
 </head>
-<body>
-    <nav>
-        <a href="./../index.html" class="navbar-item">Home</a>
-        <a href="czoch.html" class="navbar-item">Zamek Czocha</a>
-        <a href="malbork.html" class="navbar-item">Zamek Malbork</a>
+<body class="bg-slate-50 flex flex-col min-h-screen">
+    <nav class="flex justify-center bg-green-300 py-2">
+        <a href="/index.html" class="p-2 hover:text-emerald-600">Home</a>
+        <a href="/app/czoch.html" class="p-2 hover:text-emerald-600">Zamek Czocha</a>
+        <a href="/app/malbork.html" class="p-2 hover:text-emerald-600">Zamek Malbork</a>
     </nav>
-    <div class="center">
-        <p class="red">Zamek Czocha</p>
-        <img src="./../static/img/czoch.jpg" class="image" alt="czoch">
-        <p class="width-50 padding-20">W pobliżu zamku Czocha niedaleko Złotnik Lubańskich na Dolnym Śląsku aż do początku XVIII w. stała drewniana szubienica. Zachowały się świadectwa, kto na niej zginął, np. we wrześniu 1594r. kat połamał kołem niejakiego Michaela, skazanego za rozbój na drogach, morderstwa, kradzieże i fałszerstwa. Siedem miesięcy później na stryczku zawisł złodziej. W 1617r., na życzenie panów von Uechtritz, właścicieli zamku Czocha, wypożyczono specjalistę z Lubania, by połamał kołem kowala Jerzego Proxa, świętokradcę skazanego za okradzenie kościoła w Stankowicach. Kilkadziesiąt lat później doprowadzono Christopha Herbstena, chłopa z Giebułtowa, który w lutym 1651r. zabił nożem Jakoba Neumanna ze wsi Zacisze. Po kilkunastotygodniowym procesie morderca został doprowadzony na drogę dla bydła przebiegającą w pobliżu miejsca straceń i tam skrócony o głowę, a kilka godzin później pogrzebany. </p>
-    </div>   
-    <footer>
+    <main class="container mx-auto px-4 bg-slate-50 flex-grow">
+        <div class="flex justify-center flex-col items-center">
+            <p class="text-4xl py-3">Zamek Czocha</p>
+            <img src="./../static/img/czoch.jpg" class="w-6/12 py-2" alt="czoch">
+            <p class="w-2/3 p-2">W pobliżu zamku Czocha niedaleko Złotnik Lubańskich na Dolnym Śląsku aż do początku XVIII w. stała drewniana szubienica. Zachowały się świadectwa, kto na niej zginął, np. we wrześniu 1594r. kat połamał kołem niejakiego Michaela, skazanego za rozbój na drogach, morderstwa, kradzieże i fałszerstwa. Siedem miesięcy później na stryczku zawisł złodziej. W 1617r., na życzenie panów von Uechtritz, właścicieli zamku Czocha, wypożyczono specjalistę z Lubania, by połamał kołem kowala Jerzego Proxa, świętokradcę skazanego za okradzenie kościoła w Stankowicach. Kilkadziesiąt lat później doprowadzono Christopha Herbstena, chłopa z Giebułtowa, który w lutym 1651r. zabił nożem Jakoba Neumanna ze wsi Zacisze. Po kilkunastotygodniowym procesie morderca został doprowadzony na drogę dla bydła przebiegającą w pobliżu miejsca straceń i tam skrócony o głowę, a kilka godzin później pogrzebany. </p>
+        </div>   
+    </main>
+    <footer class="flex justify-center p-2 text-black bg-slate-100">
         <p>Aleksander Czerny 2022</p>
     </footer>
 </body>

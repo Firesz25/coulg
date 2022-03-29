@@ -7,23 +7,23 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Document</title>
 </head>
-<body>
-    <nav class="flex justify-center bg-slate-50">
-        <a href="index.html" class="p-2">Home</a>
-        <a href="app/czoch.html" class="p-2">Zamek Czocha</a>
-        <a href="app/malbork.html" class="p-2">Zamek Malbork</a>
+<body class="bg-slate-50 flex flex-col min-h-screen">
+    <nav class="flex justify-center bg-green-300 py-2">
+        <a href="/index.html" class="p-2 hover:text-emerald-600">Home</a>
+        <a href="/app/czoch.html" class="p-2 hover:text-emerald-600">Zamek Czocha</a>
+        <a href="/app/malbork.html" class="p-2 hover:text-emerald-600">Zamek Malbork</a>
     </nav>
-    <main class="container mx-auto px-4 bg-slate-50">
+    <main class="container mx-auto px-4 flex-grow">
         <div class="flex justify-center flex-col items-center">
-            <h1>Strona o Zamkach</h1>
-            <img src="static/img/logo.jpg" class="w-4/12 m-4" alt="logo">
+            <h1 class="text-red-600 text-4xl py-3">Strona o Zamkach</h1>
+            <!-- <img src="static/img/logo.jpg" class="w-4/12 m-4" alt="logo"> -->
         </div>
         <div class="flex justify-center items-center">
             <a href="app/czoch.html"><img src="./static/img/czoch.jpg" class="h-96 m-4" title="Czoch" alt="czoch"></a>
             <a href="app/malbork.html"><img src="./static/img/malbork.jpg" class="h-96 m-4" title="Malbork" alt="malbork"></a>
         </div>
-    </main> 
-    <footer class="flex justify-center m-2 text-black bg-slate-50">
+    </main>
+    <footer class="flex justify-center p-2 text-black bg-slate-100">
         <p>Aleksander Czerny 2022</p>
     </footer>
 </body>

@@ -4,23 +4,25 @@
     <meta charset="UTF-8">
     <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="./../static/main.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
     <title>Malbork</title>
 </head>
-<body>
-    <nav>
-        <a href="./../index.html" class="navbar-item">Home</a>
-        <a href="czoch.html" class="navbar-item">Zamek Czocha</a>
-        <a href="malbork.html" class="navbar-item">Zamek Malbork</a>
+<body class="bg-slate-50 flex flex-col min-h-screen">
+    <nav class="flex justify-center bg-green-300 py-2">
+        <a href="/index.html" class="p-2 hover:text-emerald-600">Home</a>
+        <a href="/app/czoch.html" class="p-2 hover:text-emerald-600">Zamek Czocha</a>
+        <a href="/app/malbork.html" class="p-2 hover:text-emerald-600">Zamek Malbork</a>
     </nav>
-    <div class="center">
-        <p class="red">Zamek Malbork</p>
-        <img src="./../static/img/malbork.jpg" class="image" alt="malbork">
-        <p class="width-50 padding-20">Zamek w Malborku (niem. Ordensburg Marienburg) – zamek w Malborku, na prawym brzegu Nogatu, wzniesiony w kilku etapach od 1280 do poł. XV w. przez zakon krzyżacki. Początkowo konwentualna siedziba komtura, od 1309 po przeniesieniu przez Siegfrieda von Feuchtwangena stolicy zakonu do Malborka, siedziba wielkich mistrzów zakonu krzyżackiego i władz Prus Zakonnych do 1457, w latach 1457–1772 rezydencja królów Polski, od 1466 siedziba władz Prus Królewskich, od 1568 siedziba Komisji Morskiej, w 1772 zajęty przez administrację Królestwa Prus i zdewastowany w latach 1773–1804; rekonstruowany w latach 1817–1842 i 1882–1944, zniszczony w 1945, ponownie rekonstruowany od 1947; w 1949 wpisany do rejestru zabytków, w 1994 uznany za pomnik historii, w 1997 wpisany na listę światowego dziedzictwa UNESCO; od 1961 siedziba Muzeum Zamkowego w Malborku.
+    <main class="container mx-auto px-4 flex-grow">
+         <div class="flex justify-center flex-col items-center">
+            <p class="text-4xl py-3">Zamek Malbork</p>
+            <img src="./../static/img/malbork.jpg" class="w-6/12 py-2" alt="malbork">
+            <p class="w-2/3 p-2">Zamek w Malborku (niem. Ordensburg Marienburg) – zamek w Malborku, na prawym brzegu Nogatu, wzniesiony w kilku etapach od 1280 do poł. XV w. przez zakon krzyżacki. Początkowo konwentualna siedziba komtura, od 1309 po przeniesieniu przez Siegfrieda von Feuchtwangena stolicy zakonu do Malborka, siedziba wielkich mistrzów zakonu krzyżackiego i władz Prus Zakonnych do 1457, w latach 1457–1772 rezydencja królów Polski, od 1466 siedziba władz Prus Królewskich, od 1568 siedziba Komisji Morskiej, w 1772 zajęty przez administrację Królestwa Prus i zdewastowany w latach 1773–1804; rekonstruowany w latach 1817–1842 i 1882–1944, zniszczony w 1945, ponownie rekonstruowany od 1947; w 1949 wpisany do rejestru zabytków, w 1994 uznany za pomnik historii, w 1997 wpisany na listę światowego dziedzictwa UNESCO; od 1961 siedziba Muzeum Zamkowego w Malborku.
 
-        W 1286 na południe od zamku lokowano Malbork (Stare Miasto), którego mury miejskie sprzężono z murem obronnym zamku w jednolity system obronny. W 1388 na wschód od zamku założono Nowe Miasto. W latach 1626–1635 miasto i zamek otoczono wałem fortecznym o narysie bastionowym, zaś przyczółek mostowy na lewym brzegu Nogatu osłonięto dziełem rogowym. </p>
-    </div>   
-    <footer>
+                W 1286 na południe od zamku lokowano Malbork (Stare Miasto), którego mury miejskie sprzężono z murem obronnym zamku w jednolity system obronny. W 1388 na wschód od zamku założono Nowe Miasto. W latach 1626–1635 miasto i zamek otoczono wałem fortecznym o narysie bastionowym, zaś przyczółek mostowy na lewym brzegu Nogatu osłonięto dziełem rogowym. </p>
+        </div> 
+    </main>
+    <footer class="flex justify-center p-2 text-black bg-slate-100">
         <p>Aleksander Czerny 2022</p>
     </footer>
 </body>
