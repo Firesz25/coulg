@@ -4,7 +4,7 @@
   "description": "Page write usnig tailwindcss",
   "main": "index.js",
   "scripts": {
-    "build:css": "postcss main.css -o static/main.css"
+    "build:css": "postcss static/tailwind.css -o static/main.css"
   },
   "repository": {
     "type": "git",
