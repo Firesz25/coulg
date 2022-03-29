@@ -4,26 +4,26 @@
     <meta charset="UTF-8">
     <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="./static/main.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
     <title>Document</title>
 </head>
 <body>
-    <nav>
-        <a href="index.html" class="navbar-item">Home</a>
-        <a href="app/czoch.html" class="navbar-item">Zamek Czocha</a>
-        <a href="app/malbork.html" class="navbar-item">Zamek Malbork</a>
+    <nav class="flex justify-center bg-slate-50">
+        <a href="index.html" class="p-2">Home</a>
+        <a href="app/czoch.html" class="p-2">Zamek Czocha</a>
+        <a href="app/malbork.html" class="p-2">Zamek Malbork</a>
     </nav>
-    <main class="center">
-        <div class="flex">
-            <img src="static/img/logo.jpg" class="logo" alt="logo">
+    <main class="container mx-auto px-4 bg-slate-50">
+        <div class="flex justify-center flex-col items-center">
             <h1>Strona o Zamkach</h1>
+            <img src="static/img/logo.jpg" class="w-4/12 m-4" alt="logo">
         </div>
-        <div>
-            <a href="app/czoch.html"><img src="./static/img/czoch.jpg" class="image" title="Czoch" alt="czoch"></a>
-            <a href="app/malbork.html"><img src="./static/img/malbork.jpg" class="image" title="Malbork" alt="malbork"></a>
+        <div class="flex justify-center items-center">
+            <a href="app/czoch.html"><img src="./static/img/czoch.jpg" class="h-96 m-4" title="Czoch" alt="czoch"></a>
+            <a href="app/malbork.html"><img src="./static/img/malbork.jpg" class="h-96 m-4" title="Malbork" alt="malbork"></a>
         </div>
     </main> 
-    <footer>
+    <footer class="flex justify-center m-2 text-black bg-slate-50">
         <p>Aleksander Czerny 2022</p>
     </footer>
 </body>
